@@ -6,8 +6,15 @@ h1 { text-align:center;
 }
 
 .primary {
-    font-size: 20px;
-    padding: 10px 20px;
+    font-size: 18px;
+    padding: 10px 25px;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+}
+
+.primary:hover {
+    opacity: 0.8;
 }
 
 .container {
@@ -16,4 +23,8 @@ h1 { text-align:center;
     padding: 20px auto;
     background: white;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
