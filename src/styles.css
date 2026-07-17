@@ -4,7 +4,9 @@ body {
 
 h1 { text-align:center;
 }
-
+.button {
+    colour: orange;
+}
 .primary {
     font-size: 18px;
     padding: 10px 25px;
